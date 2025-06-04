@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+
+[build-dependencies]
+bootimage = "0.10.3"
+
+[package.metadata.bootimage]
+default-target = "x86_64-rust_os.json"
